@@ -30,13 +30,3 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  titres:
-    'acceuil': 'Hello you'
-
-  mots:
-    "la ferme d'": "the farm of"
-    "séminaires": "seminar"
-    "évènements": "events"
-    "contact": "contact"
-    "la ferme": "the farm"
-    "gite": "cottage"

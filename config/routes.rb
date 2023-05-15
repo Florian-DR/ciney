@@ -4,4 +4,9 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   root "pages#home"
+
+  get "/gites", to: "pages#gites"
+  get "/events", to: "pages#events"
+  get "/seminar", to: "pages#seminar"
+  get "/contact", to: "pages#contact"
 end

@@ -1,9 +1,18 @@
-<nav>
-  <ul>
-    <li><%= t("la ferme d'")"Auwez" %></li>
-    <li><%= "Les" t("gites") %></li>
-    <li><%= t("évènement").upcase %></li>
-    <li></li>
-    <li></li>
-  </ul>
-</nav>
+<div class="nav-container" data-controller="navbard-toggle" >
+  <a href="/"><%= image_tag "logo_ciney.png", class: "logo"%></a>
+
+  <nav id="navbar" data-navbarToggle-target="navbar">
+    <ul>
+      <a href="/">La ferme d'Auwez</a>
+      <a>|</a>
+      <a href="/gites">Les Gites</a>
+      <a>|</a>
+      <a href="/events">Évènements</a>
+      <a>|</a>
+      <a href="/seminar">Séminaire</a>
+      <a>|</a>
+      <a href="/contact">Contact</a>
+    </ul>
+  </nav>
+
+</div>
